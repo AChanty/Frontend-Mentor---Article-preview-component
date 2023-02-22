@@ -91,7 +91,7 @@ body {
     width: 90%;
     margin: auto;
     border-radius: 15px;
-    box-shadow: .5px .5px 10px 0 hsl(212, 23%, 69%);
+    box-shadow: 15px 15px 25px 0 hsla(212, 23%, 69%, 0.1);
 }
 
 .article-container {
@@ -112,7 +112,7 @@ body {
 
 .article__description-container h1 {
     font-weight: 700;
-    font-size: 1.2em;
+    font-size: 1.14em;
     color: hsl(217, 19%, 35%);
     margin-bottom: 15px;
 }
@@ -266,14 +266,26 @@ body {
         font-size: 1.3em;
     }
 
+    .article__description-container {
+        margin-bottom: 0px;
+    }
+
+    .article__description-container h1 {
+        margin-top: 10px;
+    }
+
     .article__description-text {
         font-size: .7em;
+        margin-bottom: 10px;
     }
 
     .article-container {
-        margin-bottom: 0;
         height: 100%;
         border-radius: 10px 0 0 10px;
+    }
+
+    .article__bottom-wrapper {
+        padding-top: 10px;
     }
 
     .article__bottom-container {
